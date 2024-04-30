@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class EmpleadoController extends Controller
 {
+
+    // metodo generico para regresar a inicio
+    public function redirectToInicio() {
+        return view('inicio');
+    }
+
     public function redirectEmpleadoInicio() {
         return view('EmpleadoInicio');
     }

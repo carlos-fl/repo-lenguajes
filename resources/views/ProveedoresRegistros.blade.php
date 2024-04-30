@@ -31,6 +31,9 @@
         @endforeach
       </tbody>
     </table>
+    <div>
+      <a class="btn btn-warning" href="{{ route('proveedores.inicio') }}">Volver</a>
+    </div>
   </main> 
 </body>
 </html>

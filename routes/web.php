@@ -6,9 +6,7 @@ use App\Http\Controllers\ProveedoresController;
 use Illuminate\Support\Facades\Route;
 
 //Modificado para mostrar los inicios
-Route::get('/', function () {
-    return view('inicio');
-});
+Route::get('/', [EmpleadoController::class, 'redirectToInicio'])->name('inicio');
 
 
 // empleado

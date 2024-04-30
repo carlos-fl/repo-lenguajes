@@ -13,6 +13,10 @@
       <a class="btn btn-primary" href="{{ route('proveedores.registro') }}">Ver Proveedores</a>
       <a class="btn btn-primary" href="{{ route('proveedores.crear.form') }}">Crear Proveedor</a>
     </div>
+    <!-- funciona como ir a home (pagina principal de la aplicacion) -->
+    <div class="mt-4">
+      <a class="btn btn-warning" href="{{ route('inicio') }}">Ir a Inicio</a>
+    </div>
   </main>
 </body>
 </html>
